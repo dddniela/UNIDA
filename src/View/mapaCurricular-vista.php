@@ -1,10 +1,10 @@
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG_3884.webp" alt="">
+        <img class="w-100 img-fluid" src="img/IBQ-IQ/P35.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
-                <h1 class="fw-bold text-warning">Mapa Curricular</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería en Sistemas Computacionales</h1>
+                <h1 class="fw-bold text-warning shadow-text">Mapa Curricular</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none shadow-text">Ingeniería Química</h1>
             </div>
         </div>
     </div>
@@ -58,11 +58,11 @@
                         data-bs-target="#tab-semestre8" type="button" aria-controls="tab-semestre8"
                         aria-selected="false">8vo Semestre</button>
                 </li>
-                <li>
+                <!--<li>
                     <button class="dropdown-item" id="tab-semestre9-tab" data-bs-toggle="pill"
                         data-bs-target="#tab-semestre9" type="button" aria-controls="tab-semestre9"
                         aria-selected="false">9no Semestre</button>
-                </li>
+                </li>-->
             </ul>
         </li>
     </ul>
@@ -100,10 +100,10 @@
             <button class="nav-link" id="tab-semestre8-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre8"
                 type="button" role="tab" aria-controls="tab-semestre8" aria-selected="false">8vo Semestre</button>
         </li>
-        <li class="nav-item" role="presentation">
+        <!-- <li class="nav-item" role="presentation">
             <button class="nav-link" id="tab-semestre9-tab" data-bs-toggle="pill" data-bs-target="#tab-semestre9"
                 type="button" role="tab" aria-controls="tab-semestre9" aria-selected="false">9no Semestre</button>
-        </li>
+        </li>-->
     </ul>
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="tab-semestre1" role="tabpanel" aria-labelledby="tab-semestre1-tab">
@@ -179,7 +179,7 @@
             </div>
 
         </div>
-        <div class="tab-pane fade" id="tab-semestre9" role="tabpanel" aria-labelledby="tab-semestre9-tab">
+        <!--<div class="tab-pane fade" id="tab-semestre9" role="tabpanel" aria-labelledby="tab-semestre9-tab">
             <div class="container">
                 <?php
 
@@ -187,7 +187,7 @@
 
                 ?>
             </div>
-        </div>
+        </div>-->
     </div>
 
     <div class='modal fade' id='modalReticula' tabindex='-1' aria-labelledby='modalReticula' aria-hidden='true'>
@@ -220,7 +220,7 @@
 
 
     <div class="justify-content-center text-center">
-        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/3XZfkOu">Descargar
+        <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/25zsjst5">Descargar
                 Retícula</a></p>
     </div>
 
@@ -241,19 +241,19 @@
                         </div>
                         <div class="col-12" style="text-align: center;">
                             <p class="text-light" style="text-align: justify;">
-                                La especialidad es el espacio dentro del plan de estudios, constituido por un conjunto
-                                de
-                                asignaturas diseñadas para la formación y desarrollo de competencias, que complementan
-                                la formación
-                                profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
-                                México.
+                            Las especialidades que cuenta el instituto tecnológico de Veracruz en las carreras de ingeniería química 
+                            y bioquímica, las cuales brindan a los estudiantes la oportunidad de especializarse en áreas específicas, 
+                            permitiéndoles desarrollar una formación más enfocada y aplicada. Además, el departamento fomenta la 
+                            realización de proyectos de investigación y prácticas profesionales en empresas e instituciones relacionadas, 
+                            para complementar la formación académica con experiencias prácticas en el campo laboral.
                             </p>
                             <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
                                 existido:</h5>
                             <div class="bg-dark">
                                 <ul class="m-3 text-light font-bold" style="text-align: justify">
-                                    <li>Concurrencia computacional avanzada</li>
-                                    <li>Procesamiento distribuido de alto desempeño</li>
+                                    <?php
+                                        echo $especialidad->imprimirNombres();
+                                    ?>
                                 </ul>
                             </div>
                         </div>
@@ -263,26 +263,38 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG-1234.webp" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG4.png" alt="">
                 </div>
             </div>
 
         </div>
     </section>
 
-    <div class="darkSection bg-dark">
-        <h2 class="titleDarkSection text-center font-bold">Concurrencia Computacional Avanzada</h2>
-        <div class="darkSectionSeparator"></div>
-        <div class="bg-zinc-300" id="tab-especialidad">
-            <div class="container">
-                <?php
+    <div class="w-full darkSection bg-dark">
+        <ul class="nav nav-pills nav-fill justify-content-center mb-3 d-flex d-sm-none" id="pills-tab" role="tablist">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Selecciona la especialidad</a>
+                <ul class="dropdown-menu">
+                    <?php
+                        echo $especialidad->imprimirDropdown();
+                    ?>
+                </ul>
+            </li>
+        </ul>
 
-                echo $materia->imprimirEspecialidad();
-
-                ?>
-            </div>
+        <ul class="nav nav-pills nav-fill justify-content-center mx-5 d-none d-sm-flex" id="pills-tab" role="tablist">
+            <?php
+                echo $especialidad->imprimirNavPills();
+            ?>
+        </ul>
+       
+        <div class="tab-content" id="pills-tabContent">
+            <?php
+                echo $especialidad->imprimirPills();
+            ?>
         </div>
-    </div>
+</div>
 
 </div>
 <!-- Fin Especialidad -->
@@ -306,11 +318,10 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
-                                un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
-                                desenvolver en diferentes áreas
-                                de la tecnología, ofreciendo soluciones óptimas e innovadoras.
+                            <p style="text-align: justify;">
+                            El plan de estudios de la carrera de ingeniería química ofrece un desarrollo en 
+                            las áreas de proceso, ambiental, seguridad, control de procesos, calidad, en 
+                            industrias de la transformación y de servicios.
                             </p>
                             <h5 class="font-bold" style="text-align: justify">Trayectoria del alumno:</h5>
                             <div class="bg-light">
@@ -351,8 +362,7 @@
                             <p class="text-dark" style="text-align: justify;">
                                 Las actividades complementarias son todas aquellas actividades que
                                 realiza el estudiante en beneficio de su formación integral con el objetivo de
-                                complementar su desarrollo
-                                de competencia profesionales.
+                                complementar su desarrollo de competencia profesionales.
                                 <br><br>
                                 Las actividades complementarias pueden ser: tutorías, actividades extraescolares,
                                 proyectos de investigación o
@@ -369,7 +379,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/ITVER-10.webp" alt="">
+                    <img class="img-fluid rounded" src="img/extraescolares.webp" alt="">
                 </div>
             </div>
         </div>
@@ -400,7 +410,7 @@
                             y obligatorio, que
                             institucionalmente prestan y ejecutan los estudiantes en beneficio de la sociedad. Los
                             estudiantes de las instituciones
-                            adscritas al TecNM prestan el servicio social para cumplir con los créditos de sus planes de
+                            adscritas al TECNM prestan el servicio social para cumplir con los créditos de sus planes de
                             estudio.
                         </p>
                         <h5 class="font-bold" style="text-align: justify">Requisitos para cursar el servicio social:
@@ -422,7 +432,7 @@
 
 <!-- Residencias profesionales -->
 <div class="bg-primary pt-5">
-    <img src="img/IMG_0337.webp" class="w-full" alt="">
+    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">
@@ -459,7 +469,7 @@
 
             <div class="col-lg-4 col-sm-6 text-center p-3">
                 <div class="area shadow-sm p-4">
-                    <img class="areaImage items-center" src="img/icon1.PNG" alt="">
+                    <img class="areaImage items-center" src="img/icon1.png" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Proyectos</h3>
                     <p class="areaText">Contribuir a la formación integral del alumno a través de la interrelación de
                         conocimientos teóricos y aspectos prácticos de la profesión.</p>
@@ -538,7 +548,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IMG_1245.webp" alt="">
+                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ16.png" alt="">
             </div>
         </div>
 
@@ -590,7 +600,7 @@
                                 vigente de la Secretaría de Educación Pública (SEP), ofreciendo las asignaturas de
                                 los planes de estudio vigentes.
                                 <br><br>
-                                El alumno puede reinscribirse hasta en dos asignaturas como máximo o podrá cursar una sola
+                                El estudiante puede reinscribirse hasta en dos asignaturas como máximo o podrá cursar una sola
                                 asignatura,
                                 cuando ésta sea de opción de curso especial.
                             </p>
@@ -601,7 +611,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_3886.webp" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ22.png" alt="">
                 </div>
             </div>
 
@@ -706,14 +716,20 @@
                                 <li>Documento probatorio de no adeudo económico, material o equipo con
                                     las oficinas, laboratorios y centro de información en la institución de la cual
                                     egresó.</li>
-                                <li>Liberación del proyecto de titulación integral emitida por el (la) Jefe(a) de
+                                <li>Liberación del proyecto de titulación integral emitida por él (la) Jefe(a) de
                                     Departamento Académico.</li>
                                 <li>Presentar acto protocolario del proyecto de titulación integral.</li>
                             </ul>
                         </div>
                         <p class="text-dark" style="text-align: justify;">
-                                *Puede variar según el plan de estudios
+                        *Puede variar según el plan de estudios. 
                         </p>
+                        <p class="text-dark" style="text-align: left;">
+                        Solicita información en: coor_titulacion@veracruz.tecnm.mx/titulacion_quimica@veracruz.tecnm.mx.
+                        </p>
+                        <div class="justify-content-center text-center">
+                                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3kpuhew9">Formas de titulación</a></p>
+                        </div>
                     </div>
                 </div>
             </div>

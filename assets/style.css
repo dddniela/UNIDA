@@ -2,12 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 :root {
-  --bs-body-font-family: 'Montserrat', sans-serif!important;;
+  --bs-body-font-family: 'Montserrat', sans-serif !important;
+  ;
+}
+
+.btn--accesibilidad {
+  border-radius: 15px;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px
 }
 
 /*Paleta de colores*/
 .amarillo {
   background-color: #facc15;
+}
+
+.shadow-text {
+  text-shadow: 2px 2px 10px black;
 }
 
 .morado-indigo {
@@ -35,7 +48,7 @@
 }
 
 /* Configuración general para los bordes*/
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -127,11 +140,11 @@
   font-weight: 700;
 }
 
-.hover-blue{
+.hover-blue {
   color: #ffffff;
 }
 
-.hover-blue:hover{
+.hover-blue:hover {
   background-color: #232157;
   color: #ffffff;
   transition-duration: 0.5s;
@@ -140,29 +153,29 @@
 /** Títulos & textos **/
 
 /*Título de las portadas*/
-.mainTitle{
+.mainTitle {
   color: #facc15;
   font-size: 30px;
   transition-duration: 0.5s;
 }
 
 /*Subtítulo de las portadas*/
-.mainSubtitle{
+.mainSubtitle {
   color: #FFFFFF;
   font-size: 25px;
   transition-duration: 0.5s;
 }
 
-.sectionTitle{
+.sectionTitle {
   color: #18181b;
   transition-duration: 0.5s;
 }
 
-.lightSection:hover .sectionTitle{
+.lightSection:hover .sectionTitle {
   color: #1d4ed8;
 }
 
-.sectionSeparator{
+.sectionSeparator {
   width: 60px;
   height: 4px;
   background: #18181b;
@@ -170,22 +183,22 @@
   transition-duration: 0.5s;
 }
 
-.lightSection:hover .sectionSeparator{
+.lightSection:hover .sectionSeparator {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #1d4ed8;
 }
 
-.titleDarkSection{
+.titleDarkSection {
   color: #FFFFFF;
   transition-duration: 0.5s;
 }
 
-.darkSection:hover .titleDarkSection{
+.darkSection:hover .titleDarkSection {
   color: #facc15;
 }
 
-.darkSectionSeparator{
+.darkSectionSeparator {
   width: 60px;
   height: 4px;
   background: #FFFFFF;
@@ -193,65 +206,66 @@
   transition-duration: 0.5s;
 }
 
-.darkSection:hover .darkSectionSeparator{
+.darkSection:hover .darkSectionSeparator {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #facc15;
 }
 
-.areaTitle{
+.areaTitle {
   color: #18181b;
 }
 
-.areaText{
+.areaText {
   color: #18181b;
 }
 
-.area:hover .areaTitle{
-  color:#facc15;
+.area:hover .areaTitle {
+  color: #facc15;
 }
 
-.area:hover .areaText{
-  color:#FFFFFF;;
+.area:hover .areaText {
+  color: #FFFFFF;
+  ;
 }
 
 
 /*Eliminar*/
-.tituloPrincipal{
+.tituloPrincipal {
   color: #facc15;
   font-size: 30px;
   transition-duration: 0.5s;
 }
 
-.subtituloPrincipal{
+.subtituloPrincipal {
   color: #FFFFFF;
   font-size: 25px;
   transition-duration: 0.5s;
 }
 
 /** Secciones o áreas **/
-.area{
-  background:#ececec;
+.area {
+  background: #ececec;
   transition-duration: 0.5s;
 }
 
-.area:hover{
-  background:#18181b; 
+.area:hover {
+  background: #18181b;
 }
 
-.galleryContainer{
+.galleryContainer {
   background-color: #08080a;
   margin-top: 30px;
 }
 
 /** Imágenes **/
-.areaImage{
+.areaImage {
   height: 80px;
   transition-duration: 0.5s;
   margin-bottom: 10px;
 }
 
-.area:hover .areaImage{
+.area:hover .areaImage {
   height: 100px;
   margin-bottom: 10px;
 }
@@ -263,9 +277,9 @@
 /** Botones **/
 
 /*Botón para la portada principal */
-.mainButton{
+.mainButton {
   background-color: #1d4ed8;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 120px;
   height: 50px;
   font-size: 20px;
@@ -273,12 +287,45 @@
   transition-duration: 0.5s;
 }
 
-.mainButton:hover{
+.especial .nav-link {
+  color: #ffffff;
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.especial .nav-link.active {
   background-color: #facc15;
   color: #18181b;
 }
 
-.btnCambioTexto{
+.especial .nav-link:focus {
+  background-color: #facc15;
+  color: #18181b;
+}
+
+.especial .nav-link:hover {
+  background-color: #facc15;
+  color: #18181b;
+}
+
+#tab-egreso1-tab {
+  color: #18181b;
+}
+
+#tab-egreso2-tab {
+  color: #18181b;
+}
+
+.mainButton:hover {
+  background-color: #facc15;
+  color: #ffffff;
+  ;
+}
+
+.btnCambioTexto {
   background-color: #FFFFFF;
   color: #FFFFFF;
   border-radius: 15px;
@@ -288,6 +335,7 @@
   font-size: 1.2rem;
   padding: 5px;
 }
+
 
 /*.botonPrincipal{
   background-color: #1d4ed8;
@@ -307,19 +355,19 @@
 /** Media Queries **/
 
 @media (max-width: 600px) {
-  .mainTitle{
+  .mainTitle {
     color: #facc15;
     font-size: 20px;
     transition-duration: 0.5s;
   }
 
-  .mainSubtitle{
+  .mainSubtitle {
     color: #FFFFFF;
     font-size: 15px;
     transition-duration: 0.5s;
   }
 
-  .mainButton{
+  .mainButton {
     background-color: #1d4ed8;
     color: #FFFFFF;
     width: 80px;
@@ -327,8 +375,8 @@
     font-size: 10px;
     transition-duration: 0.5s;
   }
-  
-  .mainButton:hover{
+
+  .mainButton:hover {
     background-color: #facc15;
     color: #18181b;
   }
@@ -336,12 +384,12 @@
 
 /*General*/
 
-.tituloSeccionAmarillo{
+.tituloSeccionAmarillo {
   color: #ffc107;
   transition-duration: 0.5s;
 }
 
-.separadorSeccionAmarillo{
+.separadorSeccionAmarillo {
   width: 60px;
   height: 4px;
   background: #18181b;
@@ -349,22 +397,22 @@
   transition-duration: 0.5s;
 }
 
-.seccionSistemasAmarillo:hover .tituloSeccionAmarillo{
+.seccionSistemasAmarillo:hover .tituloSeccionAmarillo {
   color: #18181b;
 }
 
-.seccionSistemasAmarillo:hover .separadorSeccionAmarillo{
+.seccionSistemasAmarillo:hover .separadorSeccionAmarillo {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #ffc107;
 }
 
-.tituloSeccion{
+.tituloSeccion {
   color: #18181b;
   transition-duration: 0.5s;
 }
 
-.separadorSeccion{
+.separadorSeccion {
   width: 60px;
   height: 4px;
   background: #18181b;
@@ -372,39 +420,39 @@
   transition-duration: 0.5s;
 }
 
-.seccionSistemas:hover .tituloSeccion{
+.seccionSistemas:hover .tituloSeccion {
   color: #1d4ed8;
 }
 
-.seccionSistemas:hover .separadorSeccion{
+.seccionSistemas:hover .separadorSeccion {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #1d4ed8;
 }
 
-.seccionArea:hover .tituloSeccion{
+.seccionArea:hover .tituloSeccion {
   color: #1d4ed8;
 }
 
-.seccionArea:hover .separadorSeccion{
+.seccionArea:hover .separadorSeccion {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #1d4ed8;
 }
 
-.seccionSistemas:hover .separadorSeccion{
+.seccionSistemas:hover .separadorSeccion {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #1d4ed8;
 }
 
 
-.tituloSeccionOscura{
+.tituloSeccionOscura {
   color: #FFFFFF;
   transition-duration: 0.5s;
 }
 
-.separadorSeccionOscura{
+.separadorSeccionOscura {
   width: 60px;
   height: 4px;
   background: #FFFFFF;
@@ -412,187 +460,197 @@
   transition-duration: 0.5s;
 }
 
-.seccionInstalaciones:hover .tituloSeccionOscura{
+.seccionInstalaciones:hover .tituloSeccionOscura {
   color: #facc15;
 }
 
-.seccionInstalaciones:hover .separadorSeccionOscura{
+.seccionInstalaciones:hover .separadorSeccionOscura {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #facc15;
 }
 
-.seccionComunidad:hover .tituloSeccion{
+.seccionComunidad:hover .tituloSeccion {
   color: #1d4ed8;
 }
 
-.seccionComunidad:hover .separadorSeccion{
+.seccionComunidad:hover .separadorSeccion {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #1d4ed8;
 }
 
 
-.imagenArea{
+.imagenArea {
   height: 80px;
   transition-duration: 0.5s;
   margin-bottom: 10px;
 }
 
-.tituloArea{
+.tituloArea {
   color: #18181b;
 }
 
-.textoArea{
+.textoArea {
   color: #18181b;
 }
 
-.area:hover .imagenArea{
+.textoObjetivo {
+  color: #ffffff;
+  text-align: left;
+}
+
+.area:hover .imagenArea {
   height: 100px;
   margin-bottom: 10px;
 }
 
-.tituloAreaDocente{
+.tituloAreaDocente {
   height: 50px;
   color: #18181b;
 }
 
-.area:hover .tituloAreaDocente{
-  color:#facc15;
+.area:hover .tituloAreaDocente {
+  color: #facc15;
 }
 
-.area:hover .tituloArea{
-  color:#facc15;
+.area:hover .tituloArea {
+  color: #facc15;
 }
 
-.area:hover .textoArea{
-  color:#FFFFFF;;
+.area:hover .textoArea {
+  color: #FFFFFF;
+  ;
 }
 
-.imagen-docentes{
+.imagen-docentes {
   width: 10rem;
   height: 10rem;
   transition-duration: 0.5s;
 }
 
-.imagen-docentes:hover{
+.imagen-docentes:hover {
   width: 11rem;
   height: 11rem;
 }
 
-.imagen-docentesModal{
+.imagen-docentesModal {
   width: 15rem;
   height: 15rem;
   transition-duration: 0.5s;
 }
 
-.imagen-docentesModal:hover{
+.imagen-docentesModal:hover {
   width: 16rem;
   height: 16rem;
 }
 
-/* Contenedores */ 
+/* Contenedores */
 
-.contenedor{
-    padding: 20px;
+.contenedor {
+  padding: 20px;
 }
 
-.info-box{
+.info-box {
   display: flex;
   align-items: center;
 }
 
-.info-box img{
-  width:unset;
+.info-box img {
+  width: unset;
   margin-right: 18px;
 }
 
-.info-box p{
+.info-box p {
   font-size: 15px;
 }
 
-.icono{
+.icono {
   width: 30px;
   height: 30px;
   display: inline;
 }
 
-.contenedor-informacion{
+.contenedor-informacion {
   padding: 30px;
 }
 
-.contenedor-informacion p{
+.contenedor-informacion p {
   font-size: 15px;
 }
 
 
-.contenedor-galeria{
+.contenedor-galeria {
   background-color: #08080a;
   margin-top: 30px;
 }
 
-.contenedor-galeria:hover .tituloSeccionOscura{
+.contenedor-galeria:hover .tituloSeccionOscura {
   color: #facc15;
 }
 
-.contenedor-galeria:hover .separadorSeccionOscura{
+.contenedor-galeria:hover .separadorSeccionOscura {
   width: 100px;
   margin: 24px auto 28px auto;
   background: #facc15;
 }
 
 @media (max-width: 1200px) {
-  .info-box p{
+  .info-box p {
     font-size: 12px;
   }
 }
 
-.video{
+.video {
   width: 600px;
   height: 300px;
 }
 
 @media (max-width: 1050px) {
-  .video{
+  .video {
     width: 450px;
     height: 250px;
   }
 }
 
 @media (max-width: 750px) {
-  .video{
+  .video {
     width: 300px;
     height: 150px;
   }
 }
 
-.video-reticula{
+.video-reticula {
   width: 560px;
   height: 315px;
 }
 
 @media (max-width: 991px) {
-  .video-reticula{
+  .video-reticula {
     width: 450px;
     height: 250px;
   }
 }
 
 @media (max-width: 520px) {
-  .video-reticula{
+  .video-reticula {
     width: 395px;
     height: 140x;
   }
 }
 
 @media (max-width: 400px) {
-  .video-reticula{
+  .video-reticula {
     width: 250px;
     height: auto;
   }
 }
 
-.img-normalizada{
-	width: 100%;
-	object-fit: cover;
+.img-normalizada {
+  width: 100%;
+  object-fit: cover;
+}
+
+.shadow-text {
+  text-shadow: 2px 2px 10px black;
 }
