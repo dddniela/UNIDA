@@ -133,19 +133,25 @@
                         <a class="nav-link active hover-blue" aria-current="page" href="?option=0">Inicio</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active hover-blue" href="?option=1">Perfil de Egreso</a>
+                        <a class="nav-link active hover-blue" href="?option=1">Aspirantes</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=2">Plantilla Docente</a>
+                        <a class="nav-link active hover-blue" href="?option=2">Alumnos</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=3">Mapa Curricular</a>
+                        <a class="nav-link active hover-blue" href="?option=3">Líneas de investigación</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=4">Conócenos</a>
+                        <a class="nav-link active hover-blue" href="?option=4">Mapa Curricular</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=5">Comunidades</a>
+                        <a class="nav-link active hover-blue" href="?option=5">Núcleo Académico</a>
+                    </li>
+                    <li class="nav-item hover-blue">
+                        <a class="nav-link active hover-blue" href="?option=6">Instalaciones</a>
+                    </li>
+                    <li class="nav-item hover-blue">
+                        <a class="nav-link active hover-blue" href="?option=7">Contacto</a>
                     </li>
                     <li class="nav-item hover-blue dropdown">
                         <a class="nav-link active dropdown-toggle hover-blue" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
