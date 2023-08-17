@@ -14,7 +14,7 @@ if(isset($_GET['option'])){
             break;
 
         case 1:
-            include_once "src/Views/perfilEgreso-vista.php";
+            include_once "src/Views/aspirantes-vista.php";
             break;
 
         case 2:

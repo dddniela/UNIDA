@@ -19,7 +19,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/Alumnos/grupal1.webp" alt="">
+                <img class="img-fluid rounded" src="img/IMG_4446.webp" alt="">
             </div>
         </div>
 
@@ -74,34 +74,21 @@
 <!--Fin Perfil de ingreso -->
 
 <!-- Inicio Proceso de admisión -->
-<section class=" modoOscuro bg-dark text-white">
-    <div class="row px-2 g-0 ">
-
-        <div class="lightSection col-lg-6 col-12 p-4">
+<section class="seccionInstalaciones bg-dark text-white">
+    <div class="row px-2 g-0">
+        <div class="col-lg-6 col-12 py-4">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
                 <div class="row g-0">
                     <div class="col-12">
-                        <h2 class="sectionTitle text-center font-bold m-3">
+                        <h2 class="tituloSeccionOscura text-center font-bold m-3">
                             Proceso de admisión
                         </h2>
-                        <div class="sectionSeparator"></div>
+                        <div class="separadorSeccionOscura"></div>
                     </div>
-                    <div class="col-12" style="text-align: center;">
+                    <div class="col-12">
 
-                        <!-- inicia estilo para la lista -->
-                        <style>
-                            ul {
-                                list-style-type: disc;
-                                /* Añade viñetas circulares a la lista de requisitos*/
-                                text-align: justify;
-                                /* Justifica el texto de las listas */
-                            }
-                        </style>
-                        <!-- termina estilo para la lista -->
-
-                        <p style="text-align: justify;">
-
-                        <ul>
+                        <p>
+                        <ul class="my-3" style="text-align: justify list-style-type">
                             <li>Presentar un examen escrito sobre las áreas del conocimiento básicos para el posgrado:
                                 Administración, Contabilidad, Economía y Estadística.<br></li>
                             <li>Presentar un examen de inglés, demostrando la lectura y comprensión de un artículo en
@@ -120,8 +107,8 @@
                             <li>Finalmente a Servicios Escolares para entrega de documentación requerido una vez
                                 concluido este proceso el aspirante estará formalmente inscrito.</li>
                         </ul>
-
                         </p>
+
                     </div>
                 </div>
             </div>
@@ -129,11 +116,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/Alumnos/grupal1.webp" alt="">
+                <img class="img-fluid rounded" src="img/ITVER/escuela21.webp" alt="">
             </div>
         </div>
-
-    </div>
-</section>
-<!-- Fin Proceso de admisión -->
-
+     <!-- Fin Proceso de admisión -->
