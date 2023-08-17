@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -114,6 +114,49 @@
 
 .seccion-galeria .seccion-imagen-pequeña{
     margin: 2% 0;
+}
+
+.seccion-tarjetas{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.seccion-tarjeta{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #ECECEC;
+}
+
+.seccion-tarjeta-imagen{
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.seccion-tarjeta-titulo{
+    text-align: center;
+    font-size: 1rem;
+    color: #18181B;
+    font-weight: 700;
+}
+
+.seccion-tarjeta-descripcion{
+    text-align: justify;
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.seccion-descripcion-subtitulo{
+    text-align: left;
+    color: #18181B;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
 }
 
 /*Elementos en modo oscuro*/

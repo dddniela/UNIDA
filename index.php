@@ -48,24 +48,24 @@
 </head>
 
 <?php 
-    include_once "src/View/header.php";
+    include_once "src/Views/header.php";
 
     
     for ($i = 0; $i < 2; $i++) {
         if ($url == $urlControl[$i]) {
-            include_once "src/View/inicio.php";
+            include_once "src/Views/inicio.php";
         }
     }
 
     if (isset($_GET['option'])) {
         include_once "src/Controllers/page-controller.php";
     } else {
-        include_once "src/View/inicio.php";
+        include_once "src/Views/inicio.php";
     }
 ?>
 
 <?php
-    include_once "src/View/footer.php";
+    include_once "src/Views/footer.php";
 ?>
 
 </html>
