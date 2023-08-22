@@ -48,6 +48,54 @@ if(isset($_GET['option'])){
         case 12:
             include_once "src/Views/laboratorios/tecnologia-cafe.php";
             break;
+
+        case 13:
+            include_once "src/Views/laboratorios/microbiologia.php";
+        break;
+
+        case 14:
+            include_once "src/Views/laboratorios/postcosecha.php";
+        break;
+
+        case 15:
+            include_once "src/Views/laboratorios/ingenieria-ecologica.php";
+        break;
+
+        case 16:
+            include_once "src/Views/laboratorios/genetica-aplicada.php";
+        break;
+
+        case 17:
+            include_once "src/Views/laboratorios/fisico-quimica.php";
+        break;
+
+        case 18:
+            include_once "src/Views/laboratorios/fermentaciones.php";
+        break;
+
+        case 19:
+            include_once "src/Views/laboratorios/evaluacion-sensorial.php";
+        break;
+
+        case 20:
+            include_once "src/Views/laboratorios/bioprocesos.php";
+        break;
+
+        case 21:
+            include_once "src/Views/laboratorios/bioingenieria-bioetanol.php";
+        break;
+
+        case 22:
+            include_once "src/Views/laboratorios/bromatologia.php";
+        break;
+
+        case 23:
+            include_once "src/Views/laboratorios/bioquimica-nutricion.php";
+        break;
+
+        case 24:
+            include_once "src/Views/laboratorios/bioestadistica.php";
+        break;
         
         default:
             include_once "src/Views/inicio.php";

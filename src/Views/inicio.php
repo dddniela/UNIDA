@@ -73,7 +73,7 @@
 <section class="seccionElemento">
   <div class="seccion-contenedor">
 
-    <img class="seccion-imagen" src="img/Actualizacion/IMG_7594.jpg" alt="">
+    <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7594.jpg" alt="">
 
     <div class="seccion-descripcion">
       <h2 class="seccion-descripcion-titulo">Maestría en Ciencias en Ingeniería Bioquímica</h2>
@@ -88,7 +88,7 @@
 <section class="seccionElemento">
   <div class="seccion-contenedor">
 
-    <img class="seccion-imagen" src="img/Actualizacion/IMG_7572.jpg" alt="">
+    <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7572.jpg" alt="">
 
     <div class="seccion-lista">
       <h2 class="seccion-descripcion-titulo">Líneas de investigación</h2>
@@ -133,10 +133,10 @@
     </div>
 
     <div class="seccion-galeria">
-      <img class="seccion-imagen" src="img/Actualizacion/IMG_7573.jpg" alt="">
-      <img class="seccion-imagen" src="img/Actualizacion/IMG_7431.jpg" alt="">
-      <img class="seccion-imagen" src="img/Actualizacion/IMG_7502.jpg" alt="">
-      <img class="seccion-imagen" src="img/Actualizacion/IMG_7486.jpg" alt="">
+      <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7573.jpg" alt="">
+      <img class="seccion-imagen" src="img/laboratorios/fisico-quimica/IMG_7431.jpg" alt="">
+      <img class="seccion-imagen" src="img/laboratorios/genetica-aplicada/IMG_7502.jpg" alt="">
+      <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7486.jpg" alt="">
     </div>
   </div>
 </section>

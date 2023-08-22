@@ -17,7 +17,7 @@
             <p class="seccion-descripcion-texto">52-229-9345701  ext:104</p>
         </div>
 
-        <img class="seccion-imagen" src="img/Actualizacion/IMG_7573.jpg" alt="">
+        <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7573.jpg" alt="">
     </div>
 </section>
 
@@ -74,10 +74,10 @@
         </div>
 
         <div class="seccion-galeria">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7594.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7572.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7578.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7570.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7594.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7572.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7578.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7570.jpg" alt="">
         </div>
     </div>
 </section>

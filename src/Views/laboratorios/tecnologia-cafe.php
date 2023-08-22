@@ -17,7 +17,7 @@
             <p class="seccion-descripcion-texto">(229)934 5701 ext.  203 y 210</p>
         </div>
 
-        <img class="seccion-imagen" src="img/Actualizacion/IMG_7621.jpg" alt="">
+        <img class="seccion-imagen" src="img/laboratorios/tecnologia-cafe/IMG_7621.jpg" alt="">
     </div>
 </section>
 
@@ -78,10 +78,10 @@
         </div>
 
         <div class="seccion-galeria">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7604.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7603.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7612.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7619.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/tecnologia-cafe/IMG_7603.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/tecnologia-cafe/IMG_7604.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/tecnologia-cafe/IMG_7612.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/tecnologia-cafe/IMG_7619.jpg" alt="">
         </div>
     </div>
 </section>

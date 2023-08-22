@@ -17,7 +17,7 @@
             <p class="seccion-descripcion-texto">(229) 934 5701 ext.  108 y 212</p>
         </div>
 
-        <img class="seccion-imagen" src="img/Actualizacion/IMG_7486.jpg" alt="">
+        <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7486.jpg" alt="">
     </div>
 </section>
 
@@ -41,10 +41,10 @@
         </div>
 
         <div class="seccion-galeria">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7481.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7487.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7489.jpg" alt="">
-            <img class="seccion-imagen" src="img/Actualizacion/IMG_7485.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7481.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7487.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7490.jpg" alt="">
+            <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7485.jpg" alt="">
         </div>
     </div>
 </section>
