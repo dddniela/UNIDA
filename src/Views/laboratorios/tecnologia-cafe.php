@@ -7,8 +7,8 @@
             <p class="seccion-texto-parrafo">Este laboratorio genera conocimientos sobre la calidad del café, cacao y pimienta, específicamente de las etapas de : fermentación; proceso de tostado; preparación de las bebidas y el almacenamiento. Asimismo se desarrollan trabajos para determinar la formación y/o contaminación de compuestos tóxicos, determinar el perfíl lipídico en el café y cacao. Otro interés es la valorización de sub-productos como: pulpa, mucílago, “spent” de café; mazorca del cacao, cuantificando compuestos antioxidantes presentes en éstos desechos. Éste laboratorio apoya al sector productivo para el mejoramiento de sus procesos, desarrollo de nuevos productos y procesos, desarrollo tecnológico y en su protección intelectual.</p>
 
             <h3 class="seccion-texto-subtitulo">Profesores asociados:</h3>
-            <li class="seccion-texto-lista-item">Oscar González Ríos</li>
-            <li class="seccion-texto-lista-item">Mirna L. Suárez Quiroz</li>
+            <li class="seccion-texto-lista-item">Dr. Oscar González Ríos</li>
+            <li class="seccion-texto-lista-item">Dra. Mirna L. Suárez Quiroz</li>
 
             <h3 class="seccion-texto-subtitulo">Datos de contacto</h3>
             <li class="seccion-texto-lista-item">mirna.sq@veracruz.tecnm.mx</li>
