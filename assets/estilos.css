@@ -169,6 +169,21 @@
     margin: 3px 0;
 }
 
+.seccion-redes{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.seccion-redes-icono{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+
 /*Elementos en modo oscuro*/
 
 .seccion-contenedor.modoOscuro{
@@ -238,6 +253,10 @@
 
 .seccion-tarjeta:hover .seccion-tarjeta-imagen{
     width: 100%;
+}
+
+.seccion-redes-icono:hover{
+    filter: grayscale(0%);
 }
 
 /*Medias queries*/
