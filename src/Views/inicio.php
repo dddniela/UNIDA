@@ -70,131 +70,154 @@
 <!--Fin Carrusel de portada -->
 
 <!-- Sección: Descripción de la maestría -->
-<section class="seccionElemento">
-  <div class="seccion-contenedor">
+<section class="seccion-contenedor">
 
     <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7594.jpg" alt="">
 
-    <div class="seccion-descripcion">
-      <h2 class="seccion-descripcion-titulo">Maestría en Ciencias en Ingeniería Bioquímica</h2>
-      <div class="seccion-descripcion-separador"></div>
-      <p class="seccion-descripcion-texto">Desarrolla tu pasión por la biotecnología y la innovación inscribiéndote en nuestra Maestría en Ciencias en Ingeniería Bioquímica. Atrévete a explorar las maravillas de la ingeniería molecular y la transformación de la biología en soluciones prácticas. Únete a nosotros para ampliar tus horizontes, contribuir al progreso científico y convertirte en un líder en la creciente industria de la bioingeniería."</p>
-      <a href="#" class="seccion-descripcion-boton">Saber más</a>
+    <div class="seccion-texto">
+      <h2 class="seccion-texto-titulo">Maestría en Ciencias en Ingeniería Bioquímica</h2>
+      <div class="seccion-texto-separador"></div>
+      <p class="seccion-texto-parrafo">Desarrolla tu pasión por la biotecnología y la innovación inscribiéndote en nuestra Maestría en Ciencias en Ingeniería Bioquímica. Atrévete a explorar las maravillas de la ingeniería molecular y la transformación de la biología en soluciones prácticas. Únete a nosotros para ampliar tus horizontes, contribuir al progreso científico y convertirte en un líder en la creciente industria de la bioingeniería.</p>
+      <a href="#" class="seccion-boton">Saber más</a>
     </div>
-  </div>
+    
 </section>
 
 <!-- Sección: Lineas de investigación -->
-<section class="seccionElemento">
-  <div class="seccion-contenedor">
+<section class="seccion-contenedor">
 
-    <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7572.jpg" alt="">
+  <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7572.jpg" alt="">
 
-    <div class="seccion-lista">
-      <h2 class="seccion-descripcion-titulo">Líneas de investigación</h2>
-      <div class="seccion-descripcion-separador"></div>
-        <a href="?option=3" class="seccion-lista-item">
-          <img class="seccion-lista-icono" src="img/topicos/procesosIndustriales.png" alt="">
-          <h5 class="seccion-lista-titulo">Aplicaciones de la Biología Molecular en Ingeniería Metabólica, Biocatálisis y Control Biológico</h5>
-        </a>
+  <div class="seccion-lista">
+    <h2 class="seccion-texto-titulo">Líneas de investigación</h2>
+    <div class="seccion-texto-separador"></div>
+    <a href="?option=3" class="seccion-lista-item">
+      <img class="seccion-lista-icono" src="img/topicos/procesosIndustriales.png" alt="">
+      <h5 class="seccion-lista-parrafo">Aplicaciones de la Biología Molecular en Ingeniería Metabólica, Biocatálisis y Control Biológico</h5>
+    </a>
 
-        <a href="?option=3" class="seccion-lista-item">
-          <img class="seccion-lista-icono" src="img/topicos/controlProcesos.png" alt="">
-          <h5 class="seccion-lista-titulo">Estudios Nutrigenéticos, Funcionales y toxicológicos de Alimentos</h5>
-        </a>
+    <a href="?option=3" class="seccion-lista-item">
+      <img class="seccion-lista-icono" src="img/topicos/controlProcesos.png" alt="">
+      <h5 class="seccion-lista-parrafo">Estudios Nutrigenéticos, Funcionales y Toxicológicos de Alimentos</h5>
+    </a>
 
-        <a href="?option=3" class="seccion-lista-item">
-          <img class="seccion-lista-icono" src="img/topicos/riesgosIndustriales.png" alt="">
-          <h5 class="seccion-lista-titulo">Ingeniería y Tecnología de Procesos Biológicos</h5>
-        </a>
+    <a href="?option=3" class="seccion-lista-item">
+      <img class="seccion-lista-icono" src="img/topicos/riesgosIndustriales.png" alt="">
+      <h5 class="seccion-lista-parrafo">Ingeniería y Tecnología de Procesos Biológicos</h5>
+    </a>
 
-        <a href="?option=3" class="seccion-lista-item">
-          <img class="seccion-lista-icono" src="img/topicos/formulacionProyectos.png" alt="">
-          <h5 class="seccion-lista-titulo">Tecnología y Nanotecnología de Alimentos</h5>
-        </a>
+    <a href="?option=3" class="seccion-lista-item">
+      <img class="seccion-lista-icono" src="img/topicos/formulacionProyectos.png" alt="">
+      <h5 class="seccion-lista-parrafo">Tecnología y Nanotecnología de Alimentos</h5>
+    </a>
 
-        <a href="?option=3" class="seccion-lista-item">
-          <img class="seccion-lista-icono" src="img/topicos/analisisQuimico.png" alt="">
-          <h5 class="seccion-lista-titulo">Ingeniería de Alimentos</h5>
-        </a>
-    </div>
+    <a href="?option=3" class="seccion-lista-item">
+      <img class="seccion-lista-icono" src="img/topicos/analisisQuimico.png" alt="">
+      <h5 class="seccion-lista-parrafo">Ingeniería de Alimentos</h5>
+    </a>
   </div>
 </section>
 
 <!-- Sección: Instalaciones -->
-<section class="seccionElemento modoOscuro">
-  <div class="seccion-contenedor">
+<section class="seccion-contenedor modoOscuro">
 
-    <div class="seccion-descripcion">
-      <h2 class="seccion-descripcion-titulo">Instalaciones</h2>
-      <div class="seccion-descripcion-separador"></div>
-      <p class="seccion-descripcion-texto">Te invitamos a explorar los laboratorios que conforman nuestra Maestría en Ciencias en Ingeniería Bioquímica. Cada laboratorio ha sido meticulosamente diseñado para sumergirte en el fascinante mundo de la biotecnología y la ingeniería molecular. Desde la manipulación de biomoléculas hasta la producción de biofármacos, nuestros laboratorios ofrecen una plataforma única para poner en práctica tus habilidades y contribuir a la vanguardia de la investigación científica.</p>
-      <a href="?option=6" class="seccion-descripcion-boton">Explorar</a>
-    </div>
-
-    <div class="seccion-galeria">
-      <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7573.jpg" alt="">
-      <img class="seccion-imagen" src="img/laboratorios/fisico-quimica/IMG_7431.jpg" alt="">
-      <img class="seccion-imagen" src="img/laboratorios/genetica-aplicada/IMG_7502.jpg" alt="">
-      <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7486.jpg" alt="">
-    </div>
+  <div class="seccion-texto">
+    <h2 class="seccion-texto-titulo">Instalaciones</h2>
+    <div class="seccion-texto-separador"></div>
+    <p class="seccion-texto-parrafo">Te invitamos a explorar los laboratorios que conforman nuestra Maestría en Ciencias en Ingeniería Bioquímica. Cada laboratorio ha sido meticulosamente diseñado para sumergirte en el fascinante mundo de la biotecnología y la ingeniería molecular. Desde la manipulación de biomoléculas hasta la producción de biofármacos, nuestros laboratorios ofrecen una plataforma única para poner en práctica tus habilidades y contribuir a la vanguardia de la investigación científica.</p>
+    <a href="?option=6" class="seccion-boton">Explorar</a>
   </div>
+
+  <div class="seccion-galeria">
+    <img class="seccion-imagen" src="img/laboratorios/ingenieria-alimentos/IMG_7573.jpg" alt="">
+    <img class="seccion-imagen" src="img/laboratorios/fisico-quimica/IMG_7431.jpg" alt="">
+    <img class="seccion-imagen" src="img/laboratorios/genetica-aplicada/IMG_7502.jpg" alt="">
+    <img class="seccion-imagen" src="img/laboratorios/enzimologia/IMG_7486.jpg" alt="">
+  </div>
+
 </section>
 
 <!-- Sección: Comunidad docente -->
-<section class="seccionElemento">
-  <div class="seccion-contenedor">
+<section class="seccion-contenedor">
 
-
-    <div class="seccion-galeria">
-      <img class="seccion-imagen-pequeña" src="img/Docentes/sandraPerezCorrea.webp" alt="">
-      <img class="seccion-imagen-pequeña" src="img/Docentes/genovevaDominguezSanchez.webp" alt="">
-      <img class="seccion-imagen-pequeña" src="img/Docentes/manuelSusunagaMiranda.webp" alt="">
-      <img class="seccion-imagen-pequeña" src="img/Docentes/joseBarranHerrera.webp" alt="">
-      <img class="seccion-imagen-pequeña" src="img/Docentes/patriciaMendozaGarcia.webp" alt="">
-      <img class="seccion-imagen-pequeña" src="img/Docentes/aniluMirandaMedina.webp" alt="">
-    </div>
-
-    <div class="seccion-descripcion">
-      <h2 class="seccion-descripcion-titulo">Comunidad docente</h2>
-      <div class="seccion-descripcion-separador"></div>
-      <p class="seccion-descripcion-texto">Disponemos de un cuerpo docente multidisciplinario conformado por agentes de cambio, con sólida formación de posgrado y una rica trayectoria en el ámbito pedagógico. Su dedicación a la excelencia educativa se evidencia a diario en las aulas. Estos profesionales tienen la capacidad de moldear destinos, de dejar una huella profunda en las próximas generaciones de estudiantes, y de efectuar una influencia duradera en la esfera académica y más allá.</p>
-      <a href="#" class="seccion-descripcion-boton">Conocer</a>
-    </div>
-
+  <div class="seccion-galeria">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/sandraPerezCorrea.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/genovevaDominguezSanchez.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/manuelSusunagaMiranda.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/joseBarranHerrera.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/patriciaMendozaGarcia.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/aniluMirandaMedina.webp" alt="">
   </div>
+
+  <div class="seccion-texto">
+    <h2 class="seccion-texto-titulo">Comunidad docente</h2>
+    <div class="seccion-texto-separador"></div>
+    <p class="seccion-texto-parrafo">Disponemos de un cuerpo docente multidisciplinario conformado por agentes de cambio, con sólida formación de posgrado y una rica trayectoria en el ámbito pedagógico. Su dedicación a la excelencia educativa se evidencia a diario en las aulas. Estos profesionales tienen la capacidad de moldear destinos, de dejar una huella profunda en las próximas generaciones de estudiantes, y de efectuar una influencia duradera en la esfera académica y más allá.</p>
+    <a href="#" class="seccion-boton">Conocer</a>
+  </div>
+
 </section>
 
 <!-- Sección: Recursos -->
-<section class="seccionElemento">
-  <div class="seccion-contenedor">
+<section class="seccion-contenedor">
 
-    <div class="seccion-lista">
-      <h2 class="seccion-descripcion-titulo">Recursos</h2>
-      <div class="seccion-descripcion-separador"></div>
-        <a href="#" class="seccion-lista-item">
-          <h5 class="seccion-lista-titulo">Proceso de admisión</h5>
-        </a>
+  <div class="seccion-lista">
+    <h2 class="seccion-texto-titulo">Recursos</h2>
+    <div class="seccion-texto-separador"></div>
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Proceso de admisión</h5>
+    </a>
 
-        <a href="#" class="seccion-lista-item">
-          <h5 class="seccion-lista-titulo">Formato de resumen</h5>
-        </a>
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Formato de resumen</h5>
+    </a>
 
-        <a href="#" class="seccion-lista-item">
-          <h5 class="seccion-lista-titulo">Formato de tesis</h5>
-        </a>
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Formato de tesis</h5>
+    </a>
 
-        <a href="#" class="seccion-lista-item">
-          <h5 class="seccion-lista-titulo">Plan de estudios</h5>
-        </a>
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Plan de estudios</h5>
+    </a>
 
-        <a href="#" class="seccion-lista-item">
-          <h5 class="seccion-lista-titulo">Procesos de reinscripción</h5>
-        </a>
-    </div>
-
-    <img class="seccion-imagen" src="img/Actualizacion/IMG_7462.jpg" alt="">
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Procesos de reinscripción</h5>
+    </a>
   </div>
+
+  <img class="seccion-imagen" src="img/laboratorios/IMG_7462.jpg" alt="">
+
+</section>
+
+<!-- Redes sociales -->
+<section class="seccion-contenedor">
+
+  <div class="seccion-lista">
+    <h2 class="seccion-texto-titulo">Recursos</h2>
+    <div class="seccion-texto-separador"></div>
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Proceso de admisión</h5>
+    </a>
+
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Formato de resumen</h5>
+    </a>
+
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Formato de tesis</h5>
+    </a>
+
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Plan de estudios</h5>
+    </a>
+
+    <a href="#" class="seccion-lista-item">
+      <h5 class="seccion-lista-parrafo">Procesos de reinscripción</h5>
+    </a>
+  </div>
+
+  <img class="seccion-imagen" src="img/laboratorios/IMG_7462.jpg" alt="">
+
 </section>
 
 <!-- Área de redes sociales -->
