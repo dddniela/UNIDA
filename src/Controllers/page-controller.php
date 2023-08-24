@@ -36,6 +36,10 @@ if(isset($_GET['option'])){
         case 6:
             include_once "src/Views/instalaciones.php";
             break;
+        
+        case 7:
+            include_once "src/Views/contacto-vista.php";
+            break;
 
         case 10:
             include_once "src/Views/laboratorios/enzimologia.php";
