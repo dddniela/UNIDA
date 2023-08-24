@@ -200,7 +200,7 @@
     <div class="seccion-redes">
       <a href="https://www.tecnm.mx"><img class="seccion-redes-icono" src="img/iconos/tecnm-logo.PNG" alt=""></a>
       <a href="https://www.facebook.com/TecNMmx"><img class="seccion-redes-icono" src="img/iconos/facebook.PNG" alt=""></a>
-      <a href="https://twitter.com/TecNM_MX"><img class="seccion-redes-icono" src="img/iconos/twitter.PNG" alt=""></a>
+      <a href="https://twitter.com/TecNM_MX"><img class="seccion-redes-icono" src="img/iconos/twitterX.png" alt=""></a>
       <a href="https://www.youtube.com/user/SNESTMX"><img class="seccion-redes-icono" src="img/iconos/youtube.PNG" alt=""></a>
     </div>
 
@@ -208,7 +208,7 @@
     <div class="seccion-redes">
       <a href="https://www.veracruz.tecnm.mx/index.php"><img class="seccion-redes-icono" src="img/iconos/itver-logo.PNG" alt=""></a>
       <a href="https://www.facebook.com/ITVeracruz"><img class="seccion-redes-icono" src="img/iconos/facebook.PNG" alt=""></a>
-      <a href="https://twitter.com/tvitver"><img class="seccion-redes-icono" src="img/iconos/twitter.PNG" alt=""></a>
+      <a href="https://twitter.com/tvitver"><img class="seccion-redes-icono" src="img/iconos/twitterX.png" alt=""></a>
       <a href="https://www.youtube.com/channel/UCVBkOP_rj5ulvlriG88jTzA"><img class="seccion-redes-icono" src="img/iconos/youtube.PNG" alt=""></a>
     </div>
   </div>
