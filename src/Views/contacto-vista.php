@@ -35,7 +35,7 @@
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;"> Los programas educativos
             (Maestría en Ciencias en Ingeniería Bioquímica, Maestría en Administración, Maestría en eficiencia energética
-            y energías renovables y el Doctorado en Ciencias en Alimentos) pertenecen a la la División de Estudios de Posgrados e Investigación
+            y energías renovables y el Doctorado en Ciencias en Alimentos) pertenecen a la División de Estudios de Posgrados e Investigación
             cuyo objetivo principal es el control de las actividades docentes de los programas de 
             estudio, la vinculación con el sector productivo para la contribución de la formación profesional 
             del estudiante, así como propiciar actividades científicas con la investigación documental 
