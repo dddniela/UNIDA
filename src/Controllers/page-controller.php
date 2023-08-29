@@ -18,7 +18,7 @@ if(isset($_GET['option'])){
             break;
 
         case 2:
-            include_once "src/Views/plantillaDocente-vista.php";
+            include_once "src/Views/alumnos-vista.php";
             break;
 
         case 3:

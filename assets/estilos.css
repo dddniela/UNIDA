@@ -140,6 +140,13 @@
     transition-duration: 0.5s;
 }
 
+.seccion-tarjeta-imagen-egreso{
+    width: 35%;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition-duration: 0.5s;
+}
+
 .seccion-tarjeta-titulo{
     text-align: center;
     font-size: 1rem;
