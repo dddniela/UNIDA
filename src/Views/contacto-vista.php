@@ -115,8 +115,8 @@
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
               Zorba Josué Hernández Estrada, coordinador de la Maestría en Ciencias en Ingeniería Bioquímica
-              en el Tecnológico de Veracruz; licenciada en ingeniería agroindustrial, 
-              con maestría en ciencias en materiales y con doctorado en ciencias en materiales. 
+              en el Tecnológico de Veracruz; licenciado en ingeniería agroindustrial, 
+              con maestría en ciencias en materiales y doctorado en ciencias en materiales. 
               En el cargo de coordinación, su función principal,
               es la orientación académica de los alumnos estudiantes de dicha
               maestría a lo largo de su estancia en la Institución, para un
