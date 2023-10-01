@@ -63,7 +63,7 @@ class Administrativo
         ON tbl_administrativo_programa.programaId = tbl_programa_estudio.programaId 
         AND tbl_administrativo_programa.status = 1 
         AND tbl_administrativo_programa.programaId = " . $GLOBALS['programaId'] ."
-        AND tbl_administrativo.puestoId = 4;";
+        AND tbl_administrativo.puestoId = 5;";
         $coordinador = mysqli_query($this->connection, $sql);
         $coordinador = $coordinador->fetch_object();
         return $coordinador;

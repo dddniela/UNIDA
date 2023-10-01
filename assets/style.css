@@ -654,3 +654,14 @@
 .shadow-text {
   text-shadow: 2px 2px 10px black;
 }
+
+.btn-lab-regresar {
+  position: fixed; 
+  left: 50px; 
+  background-color: #1B396A;
+  padding: 5px;
+}
+
+.btn-lab-regresar:hover{
+  background-color: #1B396A;
+}

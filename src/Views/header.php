@@ -139,6 +139,9 @@
                         <a class="nav-link active hover-blue" href="?option=2">Alumnos</a>
                     </li>
                     <li class="nav-item hover-blue">
+                        <a class="nav-link active hover-blue" href="?option=8">Egresados</a>
+                    </li>
+                    <li class="nav-item hover-blue">
                         <a class="nav-link active hover-blue" href="?option=3">Líneas de investigación</a>
                     </li>
                     <li class="nav-item hover-blue">
