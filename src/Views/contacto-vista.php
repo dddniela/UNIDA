@@ -1,3 +1,13 @@
+<?php
+require_once("src/Models/Administrativo.php");
+$administrativos = new Administrativo();
+
+$coordinador = $administrativos->getCoordinador();
+$jefeDepartamento =  $administrativos->getJefeDEPI();
+
+$imagenJefeDep = $GLOBALS['PATH_DOCENTE'] . $jefeDepartamento['imagen'];
+$imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
+?>
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
@@ -56,25 +66,31 @@
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-4">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <div class="row g-0">
+      <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Olaya Pirene Castellanos Onorio</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php
+              if ($jefeDepartamento) {
+                echo $jefeDepartamento['nombre'];
+              }
+              ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Jefa de la de División de Estudios de Posgrados e Investigación
+              <?php
+              if ($jefeDepartamento) {
+                echo $jefeDepartamento['nombrePuesto'];
+              }
+              ?>
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Olaya Pirene Castellanos Onorio, Jefa de la de División de Estudios de Posgrados e Investigación de las maestrías
-              en Ciencias en Ingeniería Bioquímica, Administración, Eficiencia energética y energías renovables y el Doctorado en Ciencias en Alimentosen 
-              del Tecnológico de Veracruz; Doctor en Ciencias en alimentos. En el cargo
-              de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
-              relacionados con las áreas de posgrados que se imparten en el instituto
-              tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
-              derivados de los programas mencionados, proponiendo objetivos, metas y acciones; verificar que las
-              actividades de las áreas se realicen de acuerdo con las normas, lineamientos y procedimientos establecidos
-              con calidad y espíritu de servicio.
+              <?php
+              if ($jefeDepartamento) {
+                echo $jefeDepartamento['descripcion'];
+              }
+              ?>
             </p>
           </div>
         </div>
@@ -83,7 +99,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IBQ-IQ/olayaCastellanosOnorio.png" alt="">
+        <img class="img-fluid rounded" src='<?php if ($jefeDepartamento)  echo $imagenJefeDep; ?>' alt="">
       </div>
     </div>
 
@@ -97,8 +113,8 @@
   <div class="row px-2 g-0">
 
   <div class="col-lg-6 col-12 p-2 shadow-sm">
-    <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IBQ-IQ/zorbaJosueHernandezEstrada.png" alt="">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <img class="img-fluid rounded" src='<?php if ($coordinador) echo $imagenCoordinador; ?>' alt="">
       </div>
     </div>
 
@@ -106,26 +122,29 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Zorba Josué Hernández Estrada</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php
+              if ($coordinador) {
+                echo $coordinador['nombre'];
+              }
+              ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Coordinador de la Maestría en Ciencias en Ingeniería Bioquímica
+              <?php
+              if ($coordinador) {
+                echo $coordinador['nombrePuesto'] . " de Sistemas Computacionales";
+              }
+              ?>
             </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Zorba Josué Hernández Estrada, coordinador de la Maestría en Ciencias en Ingeniería Bioquímica
-              en el Tecnológico de Veracruz; licenciado en ingeniería agroindustrial, 
-              con maestría en ciencias en materiales y doctorado en ciencias en materiales. 
-              En el cargo de coordinación, su función principal,
-              es la orientación académica de los alumnos estudiantes de dicha
-              maestría a lo largo de su estancia en la Institución, para un
-              correcto avance y aprovechamiento de su programa de estudios. Así
-              mismo se realizan diferentes funciones en la coordinación, como lo
-              son: consulta y cambio de NIP, realizar la estructura académica
-              con base en las estadísticas de la población inscrita y las
-              necesidades de grupos que así se generen dentro de los periodos
-              semestrales así como de cursos de verano.
+              <?php
+              if ($coordinador) {
+                echo $coordinador['descripcion'];
+              }
+              ?>
             </p>
           </div>
         </div>
