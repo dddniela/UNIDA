@@ -1,24 +1,27 @@
 <?php
 require_once("src/Models/Conexion.php");
 require_once "src/Models/Docente.php";
+require_once "src/Models/Egresado.php";
 
 
 $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 $urlControl = array(
-    $_SERVER['SERVER_NAME'] . "/UNIDA/",
-    $_SERVER['SERVER_NAME'] . "/UNIDA/?option=0"
+    $_SERVER['SERVER_NAME'] . "/MECEIB/",
+    $_SERVER['SERVER_NAME'] . "/MECEIB/?option=0"
 );
 
 
 $programaId = 12;
 $api = 'http://localhost:3010';
-$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/UNIDA/docentes/';
+$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/MECEIB/docentes/';
 
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
 $docente->setConnection($conn->getDB());
+$egresado = new Egresado();
+$egresado->setConnection($conn->getDB());
 ?>
 
 <!DOCTYPE html>
