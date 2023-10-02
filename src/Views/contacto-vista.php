@@ -3,9 +3,9 @@ require_once("src/Models/Administrativo.php");
 $administrativos = new Administrativo();
 
 $coordinador = $administrativos->getCoordinador();
-$jefeDepartamento =  $administrativos->getJefeDEPI();
+$jefeDEPI =  $administrativos->getJefeDEPI();
 
-$imagenJefeDep = $GLOBALS['PATH_DOCENTE'] . $jefeDepartamento['imagen'];
+$imagenJefeDEPI = $GLOBALS['PATH_DOCENTE'] . $jefeDEPI['imagen'];
 $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 ?>
 <!-- Portada -->
@@ -29,8 +29,8 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
 
-  <div class="col-lg-6 col-12 p-2 shadow-sm">
-    <div class="d-flex justify-content-center align-items-center w-100 h-100">
+    <div class="col-lg-6 col-12 p-2 shadow-sm">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <img class="img-fluid rounded" src="img/ITVER/UNIDA.png" alt="">
       </div>
     </div>
@@ -44,12 +44,12 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;"> Los programas educativos
-            (Maestría en Ciencias en Ingeniería Bioquímica, Maestría en Administración, Maestría en eficiencia energética
-            y energías renovables y el Doctorado en Ciencias en Alimentos) pertenecen a la División de Estudios de Posgrados e Investigación
-            cuyo objetivo principal es el control de las actividades docentes de los programas de 
-            estudio, la vinculación con el sector productivo para la contribución de la formación profesional 
-            del estudiante, así como propiciar actividades científicas con la investigación documental 
-            y de campo.
+              (Maestría en Ciencias en Ingeniería Bioquímica, Maestría en Administración, Maestría en eficiencia energética
+              y energías renovables y el Doctorado en Ciencias en Alimentos) pertenecen a la División de Estudios de Posgrados e Investigación
+              cuyo objetivo principal es el control de las actividades docentes de los programas de
+              estudio, la vinculación con el sector productivo para la contribución de la formación profesional
+              del estudiante, así como propiciar actividades científicas con la investigación documental
+              y de campo.
             </p>
           </div>
         </div>
@@ -66,20 +66,20 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-4">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-      <div class="row g-0">
+        <div class="row g-0">
           <div class="col-12">
             <h2 class="sectionTitle text-center font-bold m-3">
               <?php
-              if ($jefeDepartamento) {
-                echo $jefeDepartamento['nombre'];
+              if ($jefeDEPI) {
+                echo $jefeDEPI['nombre'];
               }
               ?>
             </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
               <?php
-              if ($jefeDepartamento) {
-                echo $jefeDepartamento['nombrePuesto'];
+              if ($jefeDEPI) {
+                echo $jefeDEPI['nombrePuesto'];
               }
               ?>
             </h4>
@@ -87,8 +87,8 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
           <div class="col-12" style="text-align: center;">
             <p class="" style="text-align: justify">
               <?php
-              if ($jefeDepartamento) {
-                echo $jefeDepartamento['descripcion'];
+              if ($jefeDEPI) {
+                echo $jefeDEPI['descripcion'];
               }
               ?>
             </p>
@@ -99,7 +99,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='<?php if ($jefeDepartamento)  echo $imagenJefeDep; ?>' alt="">
+        <img class="img-fluid rounded" src='<?php if ($jefeDEPI)  echo $imagenJefeDEPI; ?>' alt="">
       </div>
     </div>
 
@@ -112,7 +112,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
 
-  <div class="col-lg-6 col-12 p-2 shadow-sm">
+    <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <img class="img-fluid rounded" src='<?php if ($coordinador) echo $imagenCoordinador; ?>' alt="">
       </div>
