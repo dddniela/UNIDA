@@ -202,7 +202,7 @@ class Docente
             $informacionAcademica = $docente['informacionAcademica'];
             $materias = $docente['materias'];
             $contacto = $docente['contacto'];
-            $perfilDeseable = isset($docente['perfilDeseable']) ? $docente['perfilDeseable'] : 'No';
+            $perfilDeseable = isset($docente['perfilDeseable']) ? 'Si' : '';
             $sni = isset($docente['sni']) ? $docente['sni'] : 'No';
             $orcid = isset($docente['orcid']) ? $docente['orcid'] : 'No';
             $resumenCONAHCYT = isset($docente['resumenCONAHCYT']) ? $docente['resumenCONAHCYT'] : 'No';
