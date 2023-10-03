@@ -132,28 +132,28 @@
                         <a class="nav-link active hover-blue" href="?option=2">Alumnos</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=3">Egresados</a>
+                        <a class="nav-link active hover-blue" href="?option=26">Líneas de Investigación</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=4">Líneas de investigación</a>
+                        <a class="nav-link active hover-blue" href="?option=3">Mapa Curricular</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=5">Mapa Curricular</a>
+                        <a class="nav-link active hover-blue" href="?option=27">Núcleo Académico</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=6">Núcleo Académico</a>
+                        <a class="nav-link active hover-blue" href="?option=6">Instalaciones</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=7">Instalaciones</a>
+                        <a class="nav-link active hover-blue" href="?option=25">Egresados</a>
                     </li>
                     <li class="nav-item hover-blue">
-                        <a class="nav-link active hover-blue" href="?option=8">Contacto</a>
+                        <a class="nav-link active hover-blue" href="?option=7">Contacto</a>
                     </li>
                     <li class="nav-item hover-blue dropdown">
                         <a class="nav-link active dropdown-toggle hover-blue" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Enlaces
                         </a>
-                        <ul class="dropdown-menu" style="background-color: #312e81;" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" style="background-color: #1B396A;" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://www.tecnm.mx/">TECNM</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="http://www.veracruz.tecnm.mx/">ITVER</a></li>
                             <li><a class="dropdown-item hover-blue" target="_blank" href="https://sii.veracruz.tecnm.mx/">SII</a></li>

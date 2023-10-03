@@ -7,10 +7,10 @@ Using $_GET we can send and recive informatino from the url.
 */
 
 
-if (isset($_GET['option'])) {
+if(isset($_GET['option'])){
     switch ($_GET['option']) {
         case 0:
-            include_once "src/Views/inicio.php";
+            include_once "src/Views/inicio.php";  
             break;
 
         case 1:
@@ -22,26 +22,22 @@ if (isset($_GET['option'])) {
             break;
 
         case 3:
-            include_once "src/Views/egresados-vista.php";
-            break;
-
-        case 4:
-            include_once "src/Views/lineasInvestigacion-vista.php";
-            break;
-
-        case 5:
             include_once "src/Views/mapaCurricular-vista.php";
             break;
 
+        case 4:
+            include_once "src/Views/conocenos-vista.php";
+            break;
+        
+        case 5:
+            include_once "src/Views/comunidades-vista.php";
+            break;
+
         case 6:
-            include_once "src/Views/nucleoAcademico-vista.php";
+            include_once "src/Views/instalaciones.php";
             break;
-
+        
         case 7:
-            include_once "src/Views/instalaciones-vista.php";
-            break;
-
-        case 8:
             include_once "src/Views/contacto-vista.php";
             break;
 
@@ -52,63 +48,77 @@ if (isset($_GET['option'])) {
         case 11:
             include_once "src/Views/laboratorios/ingenieria-alimentos.php";
             break;
-
+        
         case 12:
             include_once "src/Views/laboratorios/tecnologia-cafe.php";
             break;
 
         case 13:
             include_once "src/Views/laboratorios/microbiologia.php";
-            break;
+        break;
 
         case 14:
             include_once "src/Views/laboratorios/postcosecha.php";
-            break;
+        break;
 
         case 15:
             include_once "src/Views/laboratorios/ingenieria-ecologica.php";
-            break;
+        break;
 
         case 16:
             include_once "src/Views/laboratorios/genetica-aplicada.php";
-            break;
+        break;
 
         case 17:
             include_once "src/Views/laboratorios/fisico-quimica.php";
-            break;
+        break;
 
         case 18:
             include_once "src/Views/laboratorios/fermentaciones.php";
-            break;
+        break;
 
         case 19:
             include_once "src/Views/laboratorios/evaluacion-sensorial.php";
-            break;
+        break;
 
         case 20:
             include_once "src/Views/laboratorios/bioprocesos.php";
-            break;
+        break;
 
         case 21:
             include_once "src/Views/laboratorios/bioingenieria-bioetanol.php";
-            break;
+        break;
 
         case 22:
             include_once "src/Views/laboratorios/bromatologia.php";
-            break;
+        break;
 
         case 23:
             include_once "src/Views/laboratorios/bioquimica-nutricion.php";
-            break;
+        break;
 
         case 24:
             include_once "src/Views/laboratorios/bioestadistica.php";
-            break;
+        break;
+        
+        case 25:
+            include_once "src/Views/egresados-vista.php";
+        break;
 
+        case 26:
+            include_once "src/Views/lineasInvestigacion-vista.php";
+        break;
+
+        case 27:
+            include_once "src/Views/nucleoAcademico-vista.php";
+        break;
+        
         default:
             include_once "src/Views/inicio.php";
             break;
     }
+
 } else {
     include_once "src/Views/inicio.php";
 }
+ 

@@ -13,7 +13,7 @@
 <section>
     <div class="row g-0">
         <div class="position-relative w-100 overflow-hidden">
-            <img class="w-100 img-fluid" src="img/MapaCurricular/D5_Plan_de_Estudios.jpg" alt="">
+            <img class="w-100 img-fluid" src="img/MapaCurricular/planEstudiosMECEIB.webp" alt="">
             <div class="position-absolute top-50 start-50 translate-middle w-100">
             </div>
         </div>

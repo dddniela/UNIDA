@@ -11,7 +11,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/IBQ-IQ/P31.png" alt="" />
+    <img class="w-100 img-fluid" src="img/IBQ-IQ/P31.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning shadow-text">Contacto</h1>
@@ -31,7 +31,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/ITVER/UNIDA.png" alt="">
+        <img class="img-fluid rounded" src="img/Contacto/depi.webp" alt="">
       </div>
     </div>
 
@@ -44,8 +44,8 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;"> Los programas educativos
-              (Maestría en Ciencias en Ingeniería Bioquímica, Maestría en Administración, Maestría en eficiencia energética
-              y energías renovables y el Doctorado en Ciencias en Alimentos) pertenecen a la División de Estudios de Posgrados e Investigación
+              (doctorado en Ciencias en Ingeniería Bioquímica, doctorado en Administración, doctorado en eficiencia energética
+              y energías renovables y el Maestría en Ciencias en Ingeniería Bioquímica) pertenecen a la División de Estudios de Posgrados e Investigación
               cuyo objetivo principal es el control de las actividades docentes de los programas de
               estudio, la vinculación con el sector productivo para la contribución de la formación profesional
               del estudiante, así como propiciar actividades científicas con la investigación documental
@@ -133,7 +133,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($coordinador) {
-                echo $coordinador['nombrePuesto'] . " de Sistemas Computacionales";
+                echo $coordinador['nombrePuesto'] . " de la Maestría en Ciencias en Ingeniería Bioquímica";
               }
               ?>
             </h4>

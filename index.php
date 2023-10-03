@@ -1,14 +1,13 @@
 <?php
 require_once("src/Models/Conexion.php");
-require_once "src/Models/Docente.php";
-require_once "src/Models/Egresado.php";
-
+require_once ("src/Models/Docente.php");
+require_once ("src/Models/Egresado.php");
 
 $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 $urlControl = array(
-    $_SERVER['SERVER_NAME'] . "/MECEIB/",
-    $_SERVER['SERVER_NAME'] . "/MECEIB/?option=0"
+    $_SERVER['SERVER_NAME'] . "/Maestría-CienciasIngenieríaBioquímica/",
+    $_SERVER['SERVER_NAME'] . "/Maestría-CienciasIngenieríaBioquímica/?option=0"
 );
 
 
@@ -31,15 +30,15 @@ $egresado->setConnection($conn->getDB());
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="UNIDA">
-    <meta name="author" content="Tecnológico Nacional de México Veracruz">
+    <meta name="keywords" content="Maestria, Ciencias, Ingenieria, Bioquimica, Unida">
+    <meta name="author" content="Tecnológico Nacional de México / Instituto Tecnológico de Veracruz">
     <link rel="icon" href="img/itver-logo.PNG" />
 
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/estilos.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>UNIDA</title>
+    <title>Maestría en Ciencias en Ingeniería Bioquímica</title>
 </head>
 
 <?php
