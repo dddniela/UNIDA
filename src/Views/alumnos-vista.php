@@ -48,35 +48,3 @@
     <img class="seccion-imagen" src="img/laboratorios/bioprocesos/IMG_7636.jpg" alt="">
 
 </section>
-
-<section class="seccion-contenedor">
-
-  <div class="seccion-tarjetas">
-
-    <div class="seccion-tarjeta">
-      <img class="seccion-tarjeta-imagen-egreso" src="img/icon1.PNG" alt="">
-      <p class="seccion-tarjeta-descripcion">Punto de Perfil de Egreso 1</p>
-    </div>
-    <div class="seccion-tarjeta">
-      <img class="seccion-tarjeta-imagen-egreso" src="img/icon1.PNG" alt="">
-      <p class="seccion-tarjeta-descripcion">Punto de Perfil de Egreso 2</p>
-    </div>
-    <div class="seccion-tarjeta">
-      <img class="seccion-tarjeta-imagen-egreso" src="img/icon1.PNG" alt="">
-      <p class="seccion-tarjeta-descripcion">Punto de Perfil de Egreso 3</p>
-    </div>
-    <div class="seccion-tarjeta">
-      <img class="seccion-tarjeta-imagen-egreso" src="img/icon1.PNG" alt="">
-      <p class="seccion-tarjeta-descripcion">Punto de Perfil de Egreso 4</p>
-    </div>
-    <div class="seccion-tarjeta">
-      <img class="seccion-tarjeta-imagen-egreso" src="img/icon1.PNG" alt="">
-      <p class="seccion-tarjeta-descripcion">Punto de Perfil de Egreso 5</p>
-    </div>
-    <div class="seccion-tarjeta">
-      <img class="seccion-tarjeta-imagen-egreso" src="img/icon1.PNG" alt="">
-      <p class="seccion-tarjeta-descripcion">Punto de Perfil de Egreso 6</p>
-    </div>
-
-  </div>
-</section>

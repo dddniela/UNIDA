@@ -141,12 +141,12 @@
 <section class="seccion-contenedor">
 
   <div class="seccion-galeria">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/sandraPerezCorrea.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/genovevaDominguezSanchez.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/manuelSusunagaMiranda.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/joseBarranHerrera.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/patriciaMendozaGarcia.webp" alt="">
-    <img class="seccion-imagen-pequeña" src="img/Docentes/aniluMirandaMedina.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/mirnaSuarezQuiroz.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/rosaOliartRos.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/olayaCastellanosOnorio.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/carolinaPeñaMontes.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/guadalupeRodriguezJimenes.webp" alt="">
+    <img class="seccion-imagen-pequeña" src="img/Docentes/beatrizTorrestianaSanchez.webp" alt="">
   </div>
 
   <div class="seccion-texto">
@@ -208,7 +208,7 @@
     <div class="seccion-redes">
       <a href="https://www.veracruz.tecnm.mx/index.php"><img class="seccion-redes-icono" src="img/iconos/itver-logo.PNG" alt=""></a>
       <a href="https://www.facebook.com/ITVeracruz"><img class="seccion-redes-icono" src="img/iconos/facebook.PNG" alt=""></a>
-      <a href="https://twitter.com/tvitver"><img class="seccion-redes-icono" src="img/iconos/twitterX.png" alt=""></a>
+      <a href="https://twitter.com/TecNM_Veracruz"><img class="seccion-redes-icono" src="img/iconos/twitterX.png" alt=""></a>
       <a href="https://www.youtube.com/channel/UCVBkOP_rj5ulvlriG88jTzA"><img class="seccion-redes-icono" src="img/iconos/youtube.PNG" alt=""></a>
     </div>
   </div>
